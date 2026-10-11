@@ -62,6 +62,29 @@
               "body": [
                 "Nuxt JapanはNuxt公式運営主体ではありません。商標、互換性、上流の最新情報は公式資料を正本として確認してください。"
               ]
+            },
+            {
+              "id": "current-packages",
+              "title": "公開パッケージと管理元",
+              "body": [
+                "2026-10-11 時点で上記の版は公式 npm registry に存在します。配布の存在は、利用側の安全性検証や本番配備の完了を意味しません。",
+                "@nuxtjp/ui 0.1.4 — https://github.com/nuxtjp/nuxtjp-ui",
+                "@nuxtjp/local-runtime 0.1.4 — https://github.com/nuxtjp/nuxt-local-runtime",
+                "@nuxtjp/localized-site 0.1.4 — https://github.com/nuxtjp/nuxt-localized-site",
+                "@nuxtjp/provider-auth 0.1.1 — https://github.com/nuxtjp/nuxt-provider-auth",
+                "@nuxtjp/dependency-security 0.1.0 — https://github.com/nuxtjp/nuxtjp-ui/tree/main/packages/nuxt-dependency-security",
+                "@nuxtjp/management-layout 0.4.3 — https://github.com/nuxtjp/nuxtjp-ui/tree/main/packages/nuxt-management-layout"
+              ]
+            },
+            {
+              "id": "archived-successors",
+              "title": "archive 済みリポジトリの移管先",
+              "body": [
+                "nuxt-managed-resources → nuxtjp-ui/packages/nuxt-managed-resources",
+                "nuxt-management-layout → nuxtjp-ui/packages/nuxt-management-layout",
+                "nuxt-operations-console → nuxtjp-ui/packages/nuxt-operations-console",
+                "rust-v8-local-runtime → nuxt-local-runtime/crates/rust-v8-local-runtime"
+              ]
             }
           ]
         },
@@ -179,6 +202,29 @@
               "title": "Responsibility boundary",
               "body": [
                 "Nuxt Japan is not the official Nuxt operator. Treat official sources as authoritative for trademarks, compatibility, and current upstream information."
+              ]
+            },
+            {
+              "id": "current-packages",
+              "title": "Published packages and source owners",
+              "body": [
+                "These versions are available from the official npm registry as of 2026-10-11. Registry availability does not establish consumer security acceptance or production deployment.",
+                "@nuxtjp/ui 0.1.4 — https://github.com/nuxtjp/nuxtjp-ui",
+                "@nuxtjp/local-runtime 0.1.4 — https://github.com/nuxtjp/nuxt-local-runtime",
+                "@nuxtjp/localized-site 0.1.4 — https://github.com/nuxtjp/nuxt-localized-site",
+                "@nuxtjp/provider-auth 0.1.1 — https://github.com/nuxtjp/nuxt-provider-auth",
+                "@nuxtjp/dependency-security 0.1.0 — https://github.com/nuxtjp/nuxtjp-ui/tree/main/packages/nuxt-dependency-security",
+                "@nuxtjp/management-layout 0.4.3 — https://github.com/nuxtjp/nuxtjp-ui/tree/main/packages/nuxt-management-layout"
+              ]
+            },
+            {
+              "id": "archived-successors",
+              "title": "Successors of archived repositories",
+              "body": [
+                "nuxt-managed-resources → nuxtjp-ui/packages/nuxt-managed-resources",
+                "nuxt-management-layout → nuxtjp-ui/packages/nuxt-management-layout",
+                "nuxt-operations-console → nuxtjp-ui/packages/nuxt-operations-console",
+                "rust-v8-local-runtime → nuxt-local-runtime/crates/rust-v8-local-runtime"
               ]
             }
           ]
